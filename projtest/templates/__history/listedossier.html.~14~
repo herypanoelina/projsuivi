@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title
+</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<table summary="liste de quelques articles publiés&#13;&#10;sur OpenWeb regroupés par auteurs (en ligne) et niveaux (en colonne)" style="HEIGHT: 94px; WIDTH: 1169px">
+<caption>
+        <p><font size="6" color="#0000cc">Liste des dossiers reçus
+</font>
+        </p>
+        <p>
+</p>
+</caption>
+
+  <thead>
+    <tr>
+     <th style="HEIGHT: 14px; WIDTH: 104px">Référence
+</th>
+     <th style="HEIGHT: 14px; WIDTH: 76px">Date
+</th>
+     <th style="HEIGHT: 14px; WIDTH: 724px">Demandeur
+</th>
+     <th style="HEIGHT: 14px; WIDTH: 515px">Objet
+</th>
+
+     <th style="HEIGHT: 14px; WIDTH: 103px">
+            <p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recevable
+</p>
+</th>
+    </tr>
+  </thead>
+
+  <tfoot>
+   <tr>
+     <th style="HEIGHT: 14px; WIDTH: 104px">Référence
+</th>
+     <th style="HEIGHT: 14px; WIDTH: 76px">Date
+</th>
+     <th style="HEIGHT: 14px; WIDTH: 724px">Demandeur
+</th>
+     <th style="HEIGHT: 14px; WIDTH: 515px">Objet
+</th>
+
+     <th style="HEIGHT: 14px; WIDTH: 103px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recevable
+</th>
+    </tr>
+  </tfoot>
+
+  <tbody>
+    <tr>
+     <th style="WIDTH: 104px">
+            <p align="center">R001/2021
+</p>
+</th>
+     <td style="WIDTH: 76px">09/02/2021
+</td>
+     <td style="WIDTH: 724px">
+            <p align="right">Rondrotiana Rabenirina (MG)
+</p>
+</td>
+    <td style="WIDTH: 515px">
+            <p align="right">Paiements Hetra 2020
+</p>
+</td></td>
+    <td style="WIDTH: 284px">
+            <p align="right">Oui
+</p>
+</td>
+
+  </tr>
+   <tr>
+     <th style="WIDTH: 104px">
+            <p align="center">R002/2021
+</p>
+</th>
+     <td style="WIDTH: 76px">25/02/2021
+</td>
+     <td style="WIDTH: 724px">
+            <p align="right">Nivo Hantaniaina RASOANIRINA
+</p>
+</td>
+    <td style="WIDTH: 515px">
+            <p align="right">Données sur les TVA et IRSA troisième trimestre 2019
+</p>
+</td></td>
+    <td style="WIDTH: 284px">
+            <p align="right">Oui
+</p>
+</td>
+
+  </tr>
+
+
+
+
+
+
+  </tbody>
+
+</table>
+
+</body>
+</html>

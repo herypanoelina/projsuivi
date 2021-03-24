@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      {% load static %}
+    <link rel="stylesheet" href="{% static 'css/ajout.css' %}" type="text/css" media="screen, projection"/>
+    <script type="text/javascript" language="javascript" src="{% static 'js/ajout.js' %}"></script>
+    <title>Validation et envois</title>
+</head>
+<body>
+ <form action="/">
+     {% for i in Titulaire %}
+ <h1>Validation par {{ i }} et envois dossiers</h1>
+      {% endfor %}
+      <hr/>
+<div class="listbox-area">
+  <div class="left-area">
+    <span id="ss_imp_l" class="listbox-label">Dossiers sélectionnés pour:{{name}}</span>
+        <ul id="ss_imp_list" tabindex="0" role="listbox" aria-labelledby="ss_imp_l">
+          <li id="ss_opt1" role="option">R001/2021-09/02/2021-Rondrotiana Rabenirina (MG)-Paiements Hetra 2020</li>
+          <li id="ss_opt2" role="option">R002/2021-25/02/2021-Nivo Hantaniaina RASOANIRINA-Données sur les TVA et IRSA troisième trimestre 2019</li>
+          </ul>
+    <div role="toolbar" aria-label="Actions" class="toolbar">
+      <button type="button" id="ex1-up" class="toolbar-item selected" aria-keyshortcuts="Alt+ArrowUp" aria-disabled="true">Haut</button>
+      <button type="button" id="ex1-down" class="toolbar-item" tabindex="-1" aria-keyshortcuts="Alt+ArrowDown" aria-disabled="true">Bas</button>
+      <button type="button" id="ex1-delete" class="toolbar-item move-right-btn" tabindex="-1" aria-keyshortcuts="Alt+ArrowRight Delete" aria-disabled="true">Envoyer</button>
+    </div>
+  </div>
+  <div class="right-area">
+    <span id="ss_unimp_l" class="listbox-label">Dossiers à transférer:</span>
+    <ul id="ss_unimp_list" tabindex="0" role="listbox" aria-labelledby="ss_unimp_l" >
+    </ul>
+    <button type="button" id="ex1-add" class="move-left-btn" aria-keyshortcuts="Alt+ArrowLeft Enter" aria-disabled="true">Enlever de la liste</button>
+  </div>
+  <div class="offscreen">dernier Changement: <span aria-live="polite" id="ss_live_region"></span></div>
+</div>
+
+ <div class="item">
+          <p>Date d'envois</p>
+          <input style="HEIGHT: 15px; WIDTH: 6%" size="1" type="date" name="name" required/>
+          <i class="fas fa-calendar-alt"></i>
+  </div>
+
+   <div class="item">
+  <p>Référence</p>
+    <input style="HEIGHT: 15px; WIDTH: 18.17%" size="1" type="text" name="name" placeholder="Référence envois" required/>
+        <select style="WIDTH: 18.17%" size="1" required>
+              <option value="">Type dossier</option>
+              <option value="1">Papier</option>
+              <option value="2">E-mail</option>
+              <option value="3">Excel</option>
+              <option value="4">word</option>
+              <option value="5">Views</option>
+              <option value="6">Adresse Url</option>
+       </select>
+  </div>
+
+ <div class="item">
+           <p>la personne concernée par le transfert</p>
+          <input style="HEIGHT: 20px; WIDTH: 38.17%" size="1"    type="text" name="name" placeholder="Nom du destinataire" required/>
+              <select style="WIDTH: 15.17%" size="1" required>
+              <option value="">Type de personne concernée</option>
+                {% for i in data %}
+              <option value= {{ i }}> {{ i }}</option>
+               {% endfor %}
+
+           </select>
+  </div>
+    <div class="item complaint-details">
+          <p>Observation</p>
+          <div class="complaint-details-item" >
+            <textarea rows="3"   placeholder="Observation"    required></textarea>
+          </div>
+        </div>
+
+
+
+
+      <div class="btn-block">
+          <button type="submit" >Enregistrer</button>
+        </div>
+
+ </form>
+</body>
+</html>

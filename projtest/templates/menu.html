@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% load static %}
+    <meta charset="UTF-8">
+    <title>Projet : Projet et suivi</title>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="screen, projection"/>
+	<!--[if lte IE 7]>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/ie.css' %}" media="screen" />
+    <![endif]-->
+
+	<script type="text/javascript" src="{% static 'js/jquery-1.3.1.min.js' %}" ></script>
+	<script type="text/javascript" language="javascript" src="{% static 'js/jquery.dropdownPlain.js' %}"></script>
+</head>
+<body>
+{% load static %}
+ <img src="{% static 'images\title.png' %}" alt="menu projet" />
+<ul class="dropdown">
+	        <li><a href="#">Dispatching des dossiers</a>
+            <ul class="sub_menu">
+        			 <li>
+        				<a href="#">Réceptions</a>
+        				<ul>
+        					<li><a href="#" onclick="call()">Saisie</a></li>
+        					<li><a href="#" onclick="call1()">Mise à jour</a></li>
+							<li><a href="#" onclick="call2()" >Liste des dossiers reçus</a></li>
+        				</ul>
+
+        			 <li>
+        				<a href="#">Transferts</a>
+        				<ul>
+						  <li><a href="#"  onclick="call3()" >Validation et envois </a></li>
+						  <li><a href="#" onclick="call4()">Mise à jour</a></li>
+        				  <li><a href="#" onclick= call5()>Liste des dossiers transférés</a></li>
+               			</ul>
+        			 </li>
+
+
+        		</ul>
+        	</li>
+
+        	<li><a href="#">Suivis des dossiers</a>
+        		<ul class="sub_menu">
+					 <li>
+        				<a href="#"  >Chef de division</a>
+        				<ul>
+							<li><a href="#" onclick= call6() >Mise à jour</a></li>
+        					<li><a href="#" onclick= call10()>Liste dossiers gérés</a></li>
+						</ul>
+
+        			 <li>
+
+        			 <li>
+        				<a href="#"  >Centre de vérification</a>
+        				<ul>
+							<li><a href="#" onclick= call7()>Mise à jours</a></li>
+        					<li><a href="#" onclick= call11()>Liste dossiers gérés</a></li>
+						</ul>
+
+        			 <li>
+        				<a href="#" >Centre de traitement</a>
+        				<ul>
+							<li><a href="#" onclick= call8()>Mise à jours</a></li>
+        					<li><a href="#" onclick= call12() >Liste dossiers gérés</a></li>
+						</ul>
+        			 </li>
+
+
+        			 <li>
+        				<a href="#" >Centre de suivi et archivage</a>
+        				<ul>
+							<li><a href="#" onclick= call9()>Mise à jours</a></li>
+        					<li><a href="#" onclick= call13()>Liste dossiers gérés</a></li>
+
+						</ul>
+        			 </li>
+
+        		</ul>
+        	</li>
+
+	<li><a href="#">Nombre de dossiers gérés</a>
+    <ul class="sub_menu">
+					 <li>
+        				<a href="#" onclick= call15()  > par responsable</a>
+        			  </li>
+
+		            <li>
+        				<a href="#" onclick= call14()>par date </a>
+        			</li>
+	</li>
+
+
+</ul>
+	<li><a href="#">Recherche de dossiers gérés</a>
+    <ul class="sub_menu">
+					 <li>
+        				<a href="#" onclick= call16()> par Référence</a>
+        			  </li>
+
+		            <li>
+        				<a href="#" onclick= call17()>par date</a>
+        			</li>
+
+	</li>
+
+</ul>
+</ul>
+
+
+
+
+<script>
+	function call()
+{
+       window.location = '/dossier/';
+}
+
+	function call1()
+{
+       window.location = '/dossiermodif/';
+}
+
+	function call2()
+{
+       window.location = '/listedossierCh/';
+}
+
+	function call3()
+{
+       window.location = '/ajoutdossier1/';
+}
+
+	function call4()
+{
+       window.location = '/Majdossier1/';
+}
+
+	function call5()
+{
+       window.location = '/Listedossier1/';
+}
+
+	function call6()
+{
+       window.location = '/ListedossierCH/';
+}
+
+	function call7()
+{
+       window.location = '/ListedossierCH1/';
+}
+	function call8()
+{
+       window.location = '/ListedossierCH2/';
+}
+
+	function call9()
+{
+       window.location = '/ListedossierCH3/';
+
+}
+
+	function call10()
+{
+       window.location = '/ListedossierCH4/';
+
+}
+
+	function call11()
+{
+       window.location = '/ListedossierCH5/';
+
+}
+
+	function call12()
+{
+       window.location = '/ListedossierCH6/';
+
+}
+	function call13()
+{
+       window.location = '/ListedossierCH7/';
+
+}
+
+	function call14()
+{
+       window.location = '/ListedossierCH8/';
+
+}
+
+
+	function call15()
+{
+       window.location = '/ListedossierCH9/';
+
+}
+
+	function call16()
+{
+       window.location = '/ListedossierCH10/';
+
+}
+
+function call17()
+{
+       window.location = '/ListedossierCH11/';
+
+}
+
+
+
+
+</script>
+
+</body>
+</html>

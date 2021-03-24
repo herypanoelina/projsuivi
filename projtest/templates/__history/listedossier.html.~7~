@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title
+</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<table summary="liste de quelques articles publiés&#13;&#10;sur OpenWeb regroupés par auteurs (en ligne) et niveaux (en colonne)">
+<caption>
+        <p><font size="6" color="#0000cc">Liste des dossiers reçus
+</font>
+        </p>
+        <p>
+</p>
+</caption>
+
+  <thead>
+    <tr>
+     <th style="HEIGHT: 14px; WIDTH: 104px">Référence
+</th>
+     <th style="HEIGHT: 14px; WIDTH: 190px">Date
+</th>
+     <th style="HEIGHT: 14px; WIDTH: 284px">Demandeur
+</th>
+     <th style="HEIGHT: 14px">Objet
+</th>
+
+     <th style="HEIGHT: 14px; WIDTH: 103px">Recevable
+</th>
+    </tr>
+  </thead>
+
+  <tfoot>
+    <tr>
+     <th style="WIDTH: 104px"></th>
+     <th style="WIDTH: 190px">Référence
+</th>
+     <th style="WIDTH: 284px">Date
+</th>
+     <th>Demandeur
+</th>
+    <th>Recevable
+</th>
+    </tr>
+  </tfoot>
+
+  <tbody>
+    <tr>
+     <th style="WIDTH: 104px">R001/2021
+</th>
+     <td style="WIDTH: 190px"> 09/02/2021
+</td>
+     <td style="WIDTH: 284px">Rondrotiana Rabenirina (MG)
+</td>
+    <td style="WIDTH: 284px"> Paiements Hetra 2020
+</td>
+
+    </tr>
+  </tbody>
+
+</table>
+
+</body>
+</html>
