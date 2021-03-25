@@ -11,14 +11,32 @@ django-simple-menu==1.2.1
 djangorestframework==3.12.2
 filelock==3.0.12
 gunicorn==20.0.4
+<<<<<<< HEAD
+=======
+ipython-genutils==0.2.0
+itsdangerous==1.1.0
+jedi==0.18.0
+Jinja2==2.11.2
+legacy==0.1.6
+MarkupSafe==1.1.1
+parso==0.8.1
+pickleshare==0.7.5
+prompt-toolkit==3.0.10
+>>>>>>> 2cb02bfc737ef03884816c094863bcad827acb70
 psycopg2==2.8.6
 python-application==2.8.0
 python-dotenv==0.15.0
 pytz==2020.4
 six==1.15.0
 sqlparse==0.4.1
+<<<<<<< HEAD
 static3==0.7.0
 virtualenv==20.2.1
 virtualenvwrapper-win==1.2.0
+=======
+typing-extensions==3.7.4.3
+wcwidth==0.2.5
+Werkzeug==1.0.1
+>>>>>>> 2cb02bfc737ef03884816c094863bcad827acb70
 whitenoise==5.2.0
 zope.interface==5.2.0
